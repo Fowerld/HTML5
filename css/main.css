@@ -1,0 +1,75 @@
+/**
+ * @content CSS Reset
+ * @author [contact@adrienpaquot.be]
+ */
+html, body, div, span,
+h1, h2, h3, h4, h5, h6,
+fieldset, form, label, legend, input, textarea,
+header, main, nav, menu, aside, summary, hgroup, section, article, details, footer,
+table, tbody, tfoot, thead, tr, th, td, dl, dt, dd, ol, ul, li,
+figure, figcaption,
+img, audio, video,
+canvas,
+p, a{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline:0;
+    vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section,
+label{
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+input, textarea{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration:none;
+}
+
+/**
+ * @content CSS Common Tags
+ * @author [contact@adrienpaquot.be]
+ */
+html { font-size: 62.5%; } /* =10px */
+body { font:normal 1.4rem/1.5 sans-serif; } /* =14px */
+h6   { font:normal 1rem/1 sans-serif; } /* =10px */
+h5   { font:italic bold 1.4rem/1.5 sans-serif; } /* =14px */
+h4   { font:bold 1.4rem/1.5 sans-serif; } /* =14px */
+h3   { font:normal 1.8rem/1.2 sans-serif; } /* =18px */
+h2   { font:normal 2.0rem/1.1 sans-serif; } /* =20px */
+h1   { font:normal 2.4rem/1 sans-serif; } /* =24px */
+
+/**
+ * @content CSS Common Classes
+ * @author [contact@adrienpaquot.be]
+ */
+.clearfix:after{
+    content:"";
+    clear:both;
+    display:block;
+}
+
+.hidden{
+    display:none;
+}
+
+.img img,
+.field label,
+.field input,
+.field textarea{
+    width:100%
+}
+
+.fields .field{
+    float:left;
+}
